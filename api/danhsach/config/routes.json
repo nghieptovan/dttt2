@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/danhsaches",
+      "handler": "danhsach.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/danhsaches/count",
+      "handler": "danhsach.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/danhsaches/:id",
+      "handler": "danhsach.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/danhsaches",
+      "handler": "danhsach.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/danhsaches/:id",
+      "handler": "danhsach.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/danhsaches/:id",
+      "handler": "danhsach.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
